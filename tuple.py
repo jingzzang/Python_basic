@@ -1,4 +1,3 @@
-'''
 #1-1
 cleaning = ["o","x","x","o","o","x","o","o","x","x"]
 ans1=[]
@@ -36,7 +35,7 @@ best=maximum(pre, next)
 worst=minimum(pre, next)
 ans=[best,worst]
 print(ans)
-'''
+
 #3
 words=["banana", "SOS", "rotator", "hello"]
 diff=0
