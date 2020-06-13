@@ -1,3 +1,4 @@
+'''
 #1-1
 cleaning = ["o","x","x","o","o","x","o","o","x","x"]
 ans1=[]
@@ -35,3 +36,21 @@ best=maximum(pre, next)
 worst=minimum(pre, next)
 ans=[best,worst]
 print(ans)
+'''
+#3
+words=["banana", "SOS", "rotator", "hello"]
+diff=0
+for word in words:
+    for w,r in zip(word, reversed(word)):
+        if w!=r:
+            diff+=1
+            break
+print(len(words)-diff)
+
+#sorted()
+li=[2,1,3,6]
+print(sorted(li))
+print(li)
+
+print(sorted(li, reverse=True))
+print(li)
